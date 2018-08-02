@@ -3,25 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Home;
+package Latihan;
 
 /**
  *
  * @author Lenovo
  */
-public class LuasPersegi {
+public class OperatorUnary {
     public static void main(String[] args){
+        int x = 1;
+        int y;
+        
+        y = ++x;
+        System.out.println("Nilai y sekarang: "+y);
+        System.out.println("Nilai x sekarang: "+x);
+    }
+        
     
-    Double panjang, lebar, luas;
-            
-    panjang = 20.0;
-    lebar = 10.0;
-    
-    luas = panjang * lebar;
-    
-    System.out.print("Luas persegi panajng = ");
-    System.out.println(luas);
-    
-    
-    }    
 }
